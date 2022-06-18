@@ -4,13 +4,13 @@ import java.util.List;
 public class CompareTheTriplets {
     public static void main(String[] args) {
         List<Integer> Alice = new ArrayList<>();
-        Alice.add(10);
-        Alice.add(20);
+        Alice.add(17);
+        Alice.add(28);
         Alice.add(30);
         List<Integer> Bob = new ArrayList<>();
-        Bob.add(10);
-        Bob.add(30);
-        Bob.add(40);
+        Bob.add(99);
+        Bob.add(16);
+        Bob.add(8);
 
         int aliceResult = 0;
         int bobResult = 0;
@@ -27,7 +27,7 @@ public class CompareTheTriplets {
         }
         if (Alice.get(2) < Bob.get(2)){
             bobResult = bobResult+1;
-        }else if (Alice.get(0) > Bob.get(0)){
+        }else if (Alice.get(2) > Bob.get(2)){
             aliceResult = aliceResult +1;
         }
 
