@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SolveMeFirst {
@@ -17,6 +18,11 @@ public class SolveMeFirst {
 
         System.out.println(result);
 
-
+        String s1= "1234567";
+        String s2= "test_"+12345;
+        List<String > newList= Arrays.asList(s1,s2);
+        System.out.println(s1.replaceAll("[^0-9]",""));
+        System.out.println(s2.replaceAll("[^0-9]",""));
+        System.out.println(newList.contains("test_12345"));
     }
 }
