@@ -14,6 +14,11 @@ public class AngryProfessor {
                count++;
             }
         }
+        int b = 0;
+        if(b==1);
+        System.out.print("Sun");
+        System.out.println("Moon");
+
         return (count < k)?  "YES" :  "NO";
     }
 }
